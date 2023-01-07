@@ -15,12 +15,17 @@ body{
       height:37rem;
       margin-left: 6rem;
       margin-top: 6rem;
-      border-radius: 30px;
       color: white;
+
 
   }
   .contain:hover{
-    border: 1px solid white;
+    border-top: 1px;
+    border-left: 1px;
+    border-right: 1px;
+    border-bottom: 1px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #f00, #ff0, #0f0, #0ff, #00f) 10;
   }
   h1{
     position: absolute;
@@ -105,6 +110,7 @@ border-radius: 0.5rem;
 }
 .imput-label span{
     font-weight: 600;
+    margin-top: 0.1rem;
    
 }
 
