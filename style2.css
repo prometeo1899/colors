@@ -25,11 +25,16 @@ body{
 
 
   }
-  .contain:hover{
+  .contain:hover  {
     background-color: rgb(255, 255, 255);
     color: black;
-
+    font-weight: 600;
   }
+  .contain:hover input{
+    color: black;
+    font-weight: 600;
+  }
+
   h1{
     position: absolute;
     top:8.5rem;
