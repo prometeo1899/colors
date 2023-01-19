@@ -1,6 +1,6 @@
 body{
-    background-image: url(fondo.jpg);
-    background-size: 100%;
+    background: url(fondo.jpg) center center no-repeat fixed;
+    background-size: cover;
     
   }
   .contain{
@@ -13,7 +13,7 @@ body{
       gap: 1.5rem;
       width: 29rem ;
       height:37rem;
-      margin-left: 6rem;
+      margin-left: 100px;
       margin-top: 6rem;
       color: white;
       border-top: 2px;
@@ -137,4 +137,20 @@ border-radius: 0.5rem;
 
 .bton:hover{
     opacity: 0.75;
+}
+
+@media all and (max-width:600px){
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .contain{
+        margin: 0;
+        margin-top: 5em;
+        display: flex;
+        justify-self: center;
+        align-self: center;
+
+    }
 }

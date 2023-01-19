@@ -1,6 +1,10 @@
 body{
-  background-image: url(fondo.jpg);
-  background-size: 100%;
+  background: url(fondo.jpg) center center no-repeat fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 }
 .contain{
     background-color: rgb(255, 255, 255);
@@ -122,4 +126,19 @@ button a{
     margin-top: -2rem;
 }
 
+@media all and (max-width:600px){
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .contain{
+        margin: 0;
+        margin-top: 5em;
+        display: flex;
+        justify-self: center;
+        align-self: center;
+
+    }
+}
 
